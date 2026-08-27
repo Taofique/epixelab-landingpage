@@ -1,10 +1,12 @@
-import { TrendingUp, Video, BarChart3 } from "lucide-react";
 import Button from "../shared/Button";
+import graphicDesignIcon from "../../app/assets/service/graphic-design-icon.png";
+import videoIcon from "../../app/assets/service/video-icon.png";
+import marketingIcon from "../../app/assets/service/marketing-icon.png";
 
 const iconMap = {
-  "trending-up": TrendingUp,
-  video: Video,
-  "bar-chart": BarChart3,
+  "graphic-design": graphicDesignIcon,
+  video: videoIcon,
+  marketing: marketingIcon,
 } as const;
 
 export interface ServiceCardProps {
@@ -22,16 +24,16 @@ export default function ServiceCard({
   ctaLabel,
   onCtaClick,
 }: ServiceCardProps) {
-  const Icon = iconMap[icon];
-
   return (
     <div
       className="flex flex-col items-center rounded-2xl bg-white px-8 pb-8 pt-10 text-center
-        shadow-[-8px_0_24px_-12px_rgba(0,0,0,0.15),8px_0_24px_-12px_rgba(0,0,0,0.15),0_20px_28px_-12px_rgba(0,0,0,0.18)]"
+        shadow-[-8px_12px_24px_-12px_rgba(0,0,0,0.15),8px_12px_24px_-12px_rgba(0,0,0,0.15),0_20px_28px_-12px_rgba(0,0,0,0.18)]"
     >
-      <span className="flex h-16 w-16 items-center justify-center rounded-2xl bg-slate-900">
-        <Icon className="h-7 w-7 text-white" strokeWidth={2} />
-      </span>
+      <img
+        src={iconMap[icon]}
+        alt=""
+        className={`h-16 ${icon === "video" ? "w-20" : "w-16"}`}
+      />
 
       <h3 className="mt-6 text-xl font-bold text-slate-900">{title}</h3>
 

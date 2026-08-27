@@ -4,7 +4,7 @@ import ServiceCard, { type ServiceCardProps } from "../Service/ServiceCard";
 export default function Services() {
   return (
     <section className="bg-white py-20">
-      <div className="mx-auto max-w-3xl px-6 text-center">
+      <div className="mx-auto max-w-3xl px-6 text-center pb-8">
         <p className="text-xs font-semibold uppercase tracking-widest text-slate-400">
           Service
         </p>

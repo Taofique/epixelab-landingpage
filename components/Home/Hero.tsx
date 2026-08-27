@@ -68,9 +68,7 @@ export default function Hero() {
 
             {/* Top-left floating card */}
             <div className="absolute left-2 top-6 z-20 flex items-center gap-3 rounded-xl bg-white px-4 py-3 shadow-[0_20px_25px_-8px_rgba(0,0,0,0.25)] md:left-[-15%]">
-              <span className="flex h-9 w-9 items-center justify-center rounded-lg bg-slate-900">
-                <img src={messengerIcon} alt="" className="h-5 w-5 invert" />
-              </span>
+              <img src={messengerIcon} alt="" className="h-9 w-9" />
               <div>
                 <p className="text-sm font-semibold text-slate-900">
                   100% Business Growth

@@ -23,7 +23,7 @@ export default function Hero() {
             as a digital creator.
           </p>
 
-          <div className="mt-8 flex items-center gap-3">
+          <div className="mt-8 flex items-center gap-6">
             <Button variant="primary" size="md" className="rounded-full">
               Get Started
             </Button>

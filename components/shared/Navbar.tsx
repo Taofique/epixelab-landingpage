@@ -1,5 +1,6 @@
 import { Link } from "react-router";
 import Logo from "../../app/assets/Logo.svg";
+import Button from "../shared/Button";
 
 export default function Navbar() {
   return (
@@ -15,10 +16,13 @@ export default function Navbar() {
       </div>
 
       <div className="space-x-10">
-        <button className="text-lg">Sign In</button>
-        <button className="text-lg bg-[#FF6600] px-4 py-2 rounded-lg text-white">
+        <Button variant="ghost" size="md">
+          Sign In
+        </Button>
+
+        <Button variant="primary" size="md">
           Sign Up
-        </button>
+        </Button>
       </div>
     </nav>
   );

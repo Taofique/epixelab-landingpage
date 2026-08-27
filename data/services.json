@@ -1,0 +1,23 @@
+[
+  {
+    "id": "graphic-design",
+    "icon": "trending-up",
+    "title": "Graphic Design",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dui mi, bibendum eu erat id, ultricies semper metus. Nunc dapibus laoreet dolor nec imperdiet.",
+    "ctaLabel": "Learn More"
+  },
+  {
+    "id": "video-editing",
+    "icon": "video",
+    "title": "Video Editing",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dui mi, bibendum eu erat id, ultricies semper metus. Nunc dapibus laoreet dolor nec imperdiet.",
+    "ctaLabel": "Learn More"
+  },
+  {
+    "id": "digital-marketing",
+    "icon": "bar-chart",
+    "title": "Digital Marketing",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dui mi, bibendum eu erat id, ultricies semper metus. Nunc dapibus laoreet dolor nec imperdiet.",
+    "ctaLabel": "Learn More"
+  }
+]

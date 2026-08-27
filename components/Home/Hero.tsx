@@ -1,3 +1,4 @@
+// components/home/Hero.tsx
 import { useState } from "react";
 import heroGuyImage from "../../app/assets/hero/hero-guyImage.png";
 import lightbulbFrame from "../../app/assets/hero/hero-lightbulb-frame.png";
@@ -49,9 +50,9 @@ export default function Hero() {
 
         {/* Right column */}
         <div className="relative flex justify-center md:justify-end">
-          <div className="relative">
-            {/* soft shadow blob behind the portrait */}
-            <div className="absolute inset-0 z-0 rounded-full bg-slate-200/60 blur-2xl" />
+          <div className="relative flex flex-col items-center gap-4 md:block">
+            {/* soft shadow blob behind the portrait — desktop only */}
+            <div className="absolute inset-0 z-0 hidden rounded-full bg-slate-200/60 blur-2xl md:block" />
 
             <img
               src={heroGuyImage}
@@ -59,15 +60,15 @@ export default function Hero() {
               className="relative z-10 h-auto w-full max-w-md rounded-full"
             />
 
-            {/* Lightbulb doodle */}
+            {/* Lightbulb doodle — always floats over the image, all breakpoints */}
             <img
               src={lightbulbFrame}
               alt=""
-              className="absolute left-2 top-[28%] z-20 w-40 md:left-[-6%] md:w-48"
+              className="absolute left-2 top-[28%] z-20 w-32 md:left-[-6%] md:w-48"
             />
 
-            {/* Top-left floating card */}
-            <div className="absolute left-2 top-6 z-20 flex items-center gap-3 rounded-xl bg-white px-4 py-3 shadow-[0_20px_25px_-8px_rgba(0,0,0,0.25)] md:left-[-15%]">
+            {/* Top-left floating card — stacked on mobile, floats on desktop */}
+            <div className="relative z-20 flex items-center gap-3 rounded-xl bg-white px-4 py-3 shadow-[0_20px_25px_-8px_rgba(0,0,0,0.25)] md:absolute md:left-[-15%] md:top-6">
               <img src={messengerIcon} alt="" className="h-9 w-9" />
               <div>
                 <p className="text-sm font-semibold text-slate-900">
@@ -82,8 +83,8 @@ export default function Hero() {
               </div>
             </div>
 
-            {/* Bottom floating card — text only, no icon */}
-            <div className="absolute bottom-6 left-2 z-20 rounded-xl bg-white px-4 py-3 shadow-[0_20px_25px_-8px_rgba(0,0,0,0.25)] md:left-[-10%]">
+            {/* Bottom floating card — stacked on mobile, floats on desktop */}
+            <div className="relative z-20 rounded-xl bg-white px-4 py-3 shadow-[0_20px_25px_-8px_rgba(0,0,0,0.25)] md:absolute md:bottom-6 md:left-[-10%]">
               <p className="text-sm font-semibold text-slate-900">
                 1,000,000 Happy Clients
               </p>

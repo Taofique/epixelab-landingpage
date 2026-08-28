@@ -1,0 +1,35 @@
+[
+  {
+    "id": "vanessa-laird",
+    "photo": "Vanessa-photo.png",
+    "name": "Vanessa Laird",
+    "role": "UI Designer",
+    "socials": {
+      "twitter": "#",
+      "facebook": "#",
+      "dribbble": "#"
+    }
+  },
+  {
+    "id": "mason-campbell",
+    "photo": "mason-photo.png",
+    "name": "Mason Campbell",
+    "role": "UI Designer",
+    "socials": {
+      "twitter": "#",
+      "facebook": "#",
+      "dribbble": "#"
+    }
+  },
+  {
+    "id": "noa-evans",
+    "photo": "Irea-photo.png",
+    "name": "Noa Evans",
+    "role": "UI Designer",
+    "socials": {
+      "twitter": "#",
+      "facebook": "#",
+      "dribbble": "#"
+    }
+  }
+]

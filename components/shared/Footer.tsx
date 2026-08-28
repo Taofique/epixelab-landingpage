@@ -4,7 +4,7 @@ import Container from "../shared/Container";
 
 export default function Footer() {
   return (
-    <footer className="w-full">
+    <footer className="w-full pt-20">
       <Container className="flex flex-col items-center gap-6 py-6 md:flex-row md:justify-between md:gap-4">
         <div className="flex flex-col items-center gap-4 md:flex-row md:gap-16">
           <img src={FooterLogo} alt="Epixelab Logo" className="h-6 w-auto" />

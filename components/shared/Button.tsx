@@ -1,4 +1,6 @@
 import { type ReactNode, type ButtonHTMLAttributes } from "react";
+import { twMerge } from "tailwind-merge";
+import clsx from "clsx";
 
 interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   children: ReactNode;
@@ -32,7 +34,9 @@ export default function Button({
 
   return (
     <button
-      className={`${baseStyles} ${variants[variant]} ${sizes[size]} ${className}`}
+      className={twMerge(
+        clsx(baseStyles, variants[variant], sizes[size], className),
+      )}
       {...props}
     >
       {children}

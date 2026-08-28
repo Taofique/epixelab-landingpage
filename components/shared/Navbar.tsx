@@ -1,3 +1,4 @@
+// components/shared/Navbar.tsx
 import { useState } from "react";
 import { Link } from "react-router";
 import Logo from "../../app/assets/Logo.svg";
@@ -15,7 +16,7 @@ export default function Navbar() {
   ];
 
   return (
-    <nav className="w-full py-4">
+    <nav className="sticky top-0 z-50 w-full border-b border-slate-100 bg-white/80 py-4 backdrop-blur-md">
       <Container>
         <div className="flex items-center justify-between">
           <img src={Logo} alt="Epixelab Logo" className="h-8 w-auto" />

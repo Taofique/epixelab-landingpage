@@ -15,7 +15,7 @@ export default function Explore() {
               Many Block and Components
             </h2>
 
-            <p className="mt-6 text-slate-600 pb-20">
+            <p className="mt-6 text-slate-600 md:pb-20">
               Startup framework contains components and complex blocks which can
               easily be integrated into almost any design.
             </p>
@@ -30,7 +30,7 @@ export default function Explore() {
           </div>
 
           {/* Right image */}
-          <div className="relative">
+          <div className="relative pt-5">
             <img
               src={ExploreImage}
               alt="Explore Video Thumbnail"

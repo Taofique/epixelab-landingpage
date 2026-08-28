@@ -1,0 +1,26 @@
+[
+  {
+    "id": "rayhan-curran",
+    "photo": "rayan-curran-photo.png",
+    "quote": "Get a fully retina ready site when you build with Startup Framework. Websites look sharper and more gorgeous on devices with retina display support",
+    "name": "Rayhan Curran"
+  },
+  {
+    "id": "kayley-frame",
+    "photo": "Kayley-frame-photo.png",
+    "quote": "As a business targeting high net worth individuals, we were looking for a slick, cool and mini-malistic design for our website",
+    "name": "Kayley Frame"
+  },
+  {
+    "id": "gene-whitfield",
+    "photo": "gene-whitfield-photo.png",
+    "quote": "The most important part of the Startup Framework is the samples",
+    "name": "Gene Whitfield"
+  },
+  {
+    "id": "allan-kim",
+    "photo": "Allan-kim-photo.png",
+    "quote": "I’ve built my website with Startup just in one day, and it was ready-to-go. ",
+    "name": "Allan Kim"
+  }
+]

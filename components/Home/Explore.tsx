@@ -6,11 +6,11 @@ import Container from "../shared/Container";
 
 export default function Explore() {
   return (
-    <section className="bg-white py-20">
+    <section className="bg-white py-10 md:py-20">
       <Container>
         <div className="grid items-center gap-12 md:grid-cols-2">
           {/* Left content */}
-          <div className="max-w-lg">
+          <div className=" text-center max-w-lg">
             <h2 className="text-3xl font-bold text-slate-900 md:text-4xl">
               Many Block and Components
             </h2>

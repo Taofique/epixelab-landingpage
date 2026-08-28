@@ -4,7 +4,7 @@ import Container from "../shared/Container";
 
 export default function Services() {
   return (
-    <section className="bg-white py-20">
+    <section className="bg-white py-10 md:py-20">
       <Container>
         {/* Section heading */}
         <div className="mx-auto max-w-3xl pb-8 text-center">

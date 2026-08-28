@@ -16,7 +16,7 @@ const photoMap: Record<string, string> = {
 
 export default function Testimonials() {
   return (
-    <section className="bg-white py-20">
+    <section className="bg-white py-10">
       <Container>
         <div className="text-center mx-auto max-w-3xl pb-8">
           <p className="text-xs font-semibold uppercase tracking-widest text-slate-400">

@@ -14,7 +14,7 @@ const photoMap: Record<string, string> = {
 
 export default function OurTeam() {
   return (
-    <section className="bg-white py-20">
+    <section className="bg-white py-10 md:py-20">
       <Container>
         <div className="text-center mx-auto max-w-2xl pb-20">
           <p className="text-xs font-semibold uppercase tracking-widest text-slate-400">

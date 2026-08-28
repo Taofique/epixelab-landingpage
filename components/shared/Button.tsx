@@ -15,13 +15,13 @@ export default function Button({
   ...props
 }: ButtonProps) {
   const baseStyles =
-    "rounded-lg font-medium transition-all duration-200 inline-flex items-center justify-center";
+    "font-medium transition-all duration-200 inline-flex items-center justify-center";
 
   const variants = {
-    primary: "bg-[#FF6600] text-white hover:bg-[#e55a00]",
+    primary: "rounded-lg bg-[#FF6600] text-white hover:bg-[#e55a00]",
     outline:
-      "border-2 border-[#FF6600] text-[#FF6600] hover:bg-[#FF6600] hover:text-white",
-    ghost: "text-gray-700 hover:bg-gray-100",
+      "rounded-lg border-2 border-[#FF6600] text-[#FF6600] hover:bg-[#FF6600] hover:text-white",
+    ghost: "rounded-lg text-gray-700 hover:bg-gray-100",
   };
 
   const sizes = {

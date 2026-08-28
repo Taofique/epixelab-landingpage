@@ -26,7 +26,7 @@ export default function ServiceCard({
 }: ServiceCardProps) {
   return (
     <div
-      className="flex flex-col items-center rounded-2xl bg-white px-8 pb-8 pt-10 text-center
+      className="flex flex-col items-center rounded-2xl bg-white px-8 pb-8 pt-10 text-center transition-all duration-300 hover:-translate-y-2 hover:shadow-xl
         shadow-[-8px_12px_24px_-12px_rgba(0,0,0,0.15),8px_12px_24px_-12px_rgba(0,0,0,0.15),0_20px_28px_-12px_rgba(0,0,0,0.18)]"
     >
       <img

@@ -6,13 +6,14 @@ import messengerIcon from "../../app/assets/hero/hero-black-messenger-icon.svg";
 import starIcon from "../../app/assets/hero/hero-star-icon.png";
 import learnMoreIcon from "../../app/assets/hero/learn-more-icon.png";
 import Button from "../shared/Button";
+import Container from "../shared/Container";
 
 export default function Hero() {
   const [learnMoreActive, setLearnMoreActive] = useState(false);
 
   return (
     <section className="relative overflow-hidden bg-white">
-      <div className="mx-auto grid max-w-7xl grid-cols-1 items-center gap-12 px-6 py-16 md:grid-cols-2 md:py-24">
+      <Container className="grid grid-cols-1 items-center gap-12 py-16 md:grid-cols-2 md:py-24">
         {/* Left column */}
         <div className="max-w-xl">
           <h1 className="text-4xl font-bold leading-tight text-slate-900 md:text-5xl">
@@ -97,7 +98,7 @@ export default function Hero() {
             </div>
           </div>
         </div>
-      </div>
+      </Container>
     </section>
   );
 }

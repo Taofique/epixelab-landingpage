@@ -7,9 +7,9 @@ export default function MainLayout() {
     <div>
       <Navbar />
 
-      <div className="min-h-screen">
+      <main>
         <Outlet />
-      </div>
+      </main>
 
       <Footer />
     </div>
